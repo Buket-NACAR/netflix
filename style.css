@@ -11,5 +11,82 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --primary-color: #e50914;
+  --primary-redcolor: #e50914;
+  --primary-blackcolor: #000000;
+  
+
 }
+
+.rect {
+  width: 250px;
+  height: 150px
+}
+
+.colors {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+h1 {
+ font-weight: bold;
+ font-size: 3rem;
+ line-height: 1.1;
+ letter-spacing: -0.5%;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: -1.1;
+  letter-spacing: -1%;
+}
+
+h3 {
+  font-weight:normal;
+  font-size: 1.6rem;
+  line-height:normal;
+  letter-spacing: 0%;
+}
+
+Primary Button  {
+  font-weight:normal;
+  font-size: 30px;
+  line-height:normal;
+  letter-spacing: 0.1%;
+}
+
+Secondary Button {
+  font-weight:normal;
+  font-size: 16px;
+  line-height:normal;
+  letter-spacing: 0%;
+}
+
+body {
+  font-weight:normal;
+  font-size: 26px;
+  line-height:normal;
+  letter-spacing: 0%;
+}
+
+Text Field {
+  font-weight:normal;
+  font-size: 16px;
+  line-height:normal;
+  letter-spacing: 0%;
+}
+
+Lead {
+  font-weight:normal;
+  font-size: 16px;
+  line-height:normal;
+  letter-spacing: 0%;
+}
+
+Subtitle {
+  font-weight:normal;
+  font-size: 19px;
+  line-height:normal;
+  letter-spacing: 0.5%;
+}
+
